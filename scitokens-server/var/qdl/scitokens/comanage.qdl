@@ -9,7 +9,7 @@ block [
   ldap_cfg.auth_type          := 'simple';
   ldap_cfg.address            := ini.'server';
   ldap_cfg.port               := 636;
-  ldap_cfg.claim_name         := 'uid';
+  ldap_cfg.claim_name         := 'input_uid';
   ldap_cfg.search_base        := ini.'search_base';
   ldap_cfg.search_scope       := 'subtree';
   ldap_cfg.fail_on_error      := true;
